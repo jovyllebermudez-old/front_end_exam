@@ -1,0 +1,58 @@
+@media only screen
+and (max-width : 1200px) {
+    header .header_cont{padding: 36px 15px ;}
+    .main_top{padding: 0 15px;}
+
+   .ftr_cont .ftr_top{padding: 0 15px;}
+   #breadcrumbs{padding: 0 15px;}
+   .the_post{padding: 0 15px;}
+   .post_container{padding: 0 15px;}
+}
+
+@media only screen
+and (max-width : 1100px) {
+   .brn_info{top: 107px;}
+}
+
+@media only screen
+and (max-width : 1010px) {
+    .brn_info { top: 129px; font-size: 33px; line-height: 61px; max-width: 619px; }
+     .ftr_fixed{display: none;}
+     .ftr_cont{margin-bottom: 0;}
+}
+@media only screen
+and (max-width : 900px) {
+    .brn_info {  top: 21%;}
+   .post_date{ font-size: 20px; margin: 60px 0 33px!important; } }
+
+
+@media only screen
+and (max-width : 800px) {
+    .brn_info { font-size: 29px; line-height: 39px; max-width: 619px; }
+    .post_content { font-size: 18px!important; line-height: 47px!important; margin: 0px 0 36px; }
+    #comments h2{ font-size: 31px!important; margin: 0 0 42px!important; }
+    .comment_sect{ line-height: 38px; margin: 0 0 76px!important; }
+    .comment_con{ padding: 0 20px 0px!important; }
+}
+
+@media only screen
+and (max-width : 600px) {
+     .post_data { margin: 0 0 20px; }
+    .date_cont { font-size: 12px; }
+    .brn_info { font-size: 10px; line-height: 27px; max-width: 619px; left: 0; right: 0; margin: 0 auto; text-align: center; }
+    .main_cont { padding: 0 15px 40px; }
+     main .post_container{padding: 0 }
+     main .load_more_cont button{width: 100%;}
+
+     .ftr_cont .ftr_top { height: 373px; }
+     .create_post_cont { text-align: left!important; position: static!important; margin: 0 0 30px!important; }
+
+    main .h1_title { font-size: 32px; line-height: 100%; margin: 30px 0; }
+
+     #login_cont { width: 100%!important; margin: 184px auto 100px!important; padding: 0 15px; }
+
+     .file-wrapper { height: 300px!important }
+
+
+     #post_data { min-height: 326px; }
+}
